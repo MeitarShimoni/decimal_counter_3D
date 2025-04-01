@@ -23,4 +23,4 @@ Components:
 
 Documentations:
 
-![Table 1 - Display Characters and Resulting LED Segment Control Values](Images/Display Characters and Resulting LED Segment Control Values.png)
+![Table 1 - Display Characters and Resulting LED Segment Control Values](Images/Display_Characters_and_Resulting_LED_Segment_Control_Values.png)
