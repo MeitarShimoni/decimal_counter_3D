@@ -20,6 +20,9 @@ Components:
 5. [Shift Register:](new/Shift_REG.vhd) moves the location of the digits.
 6. [Anode Encoder:](new/Anode_encoder.vhd) Abode decoding for the Mux's Select.
 
+## Waveform & Results:
+![Waveform 1](Images/TestBenchWaveform.png)
+In this waveform we can see the change between 009 to 010, The anode_out signal controls which LED turns on. and the seg_out control which number will goes out.
 
 ## Documentations:
 ### Table 1: Display Characters and Resulting LED Segment Control Values
