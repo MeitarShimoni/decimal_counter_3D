@@ -3,9 +3,9 @@
 This project we have been asked to implement a Decimal counter with 3 digits on the Basys3 FPGA board.
 
 ![Decimal Counter 3D Schematic](Images/Decimal_Counter_3D_Schematic.png)
-## Circuit Explaination:
+## Circuit Explanation:
 First LSD counter counts from 0 to 9, while the others count from 1 to 9 (to prevent 009->000 instead of 009->010),
-the combinational logic in the Top level Module handles this. 
+the combinational logic in the Top-level Module handles this. 
 The Shift Register's purpose is to shift the right segment 110 -> 101 -> 011 -> 110,
 The ANODE ENCODER encodes the location of the shift register and connects it to the right counter.
 then the 7-segment decoder takes the integer values and changes them to the right vector combination to turn on the LEDs.
