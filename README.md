@@ -19,3 +19,8 @@ Components:
 4. [Mux 4x1:](new/Mux4x1.vhd) toggle between the 3 digits.
 5. [Shift Register:](new/Shift_REG.vhd) moves the location of the digits.
 6. [Anode Encoder:](new/Anode_encoder.vhd) Abode decoding for the Mux's Select.
+
+
+Documentations:
+
+![Table 1 - Display Characters and Resulting LED Segment Control Values](Images/Display_Characters_and_Resulting_LED_Segment_Control_Values.png)
