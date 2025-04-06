@@ -1,4 +1,4 @@
-# decimal_counter_3D
+#  3 Digit Decimal Counter for basys3 FPGA Board
 
 This lab project implements a 3-digit decimal counter using VHDL on the Basys 3 FPGA board.
 The counter value is displayed on three multiplexed 7-segment displays and can be configured via DIP switches to count up to a user-defined top value (NNN).
