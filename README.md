@@ -8,9 +8,9 @@ The system uses modular components including counters, a shift register, a MUX, 
 ## Circuit Explanation:
 First LSD counter counts from 0 to 9, while the others count from 1 to 9 (to prevent 009->000 instead of 009->010),
 the combinational logic in the Top-level Module handles this. 
-The Shift Register's purpose is to shift the right segment(LED1,LED2,LED3) 110 -> 101 -> 011 -> 110, (where 0 means turned on). 
-The ANODE ENCODER encodes the location of the shift register and connects it to the right counter.
-then the 7-segment decoder takes the integer values and changes them to the right vector combination to turn on the LEDs.
+The Shift Register cycles the active digit: 110 -> 101 -> 011 -> 110, (where 0 means turned on). 
+The Anode Encoder maps the shift register output to the correct digit.
+Then the 7-Segment Decoder converts integer values into LED segment vectors.
 
 ## Implementation:
 
